@@ -1,0 +1,23 @@
+
+1. Turn off code signing.
+
+2. Download and install Carthage.pkg from:
+
+   https://github.com/Carthage/Carthage/releases
+
+3. Do in the git root of KYA:
+
+   $ carthage bootstrap
+
+4. Edit KYASleepWakeTimer.m and change args
+
+5. DID NOT WORK:
+   Info.plist: change SUEnableAutomaticChecks to NO
+
+
+TODO:
+
+Insecure update error!
+For security reasons, you need to code sign your application
+or sign your updates with a DSA key.  See Sparkle's
+documentation for more information.
